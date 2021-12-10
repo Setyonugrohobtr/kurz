@@ -132,7 +132,7 @@ require('./kurr.js')
 
 const starts = async (kurr = new WAConnection()) => {
 	kurr.logger.level = 'warn'
-	kurr.version = [2, 2143, 3]
+	kurr.version = [2, 2426, 14]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
 	console.log(color(figlet.textSync('KurzBotz Assistan', {
 		font: 'Standard',
